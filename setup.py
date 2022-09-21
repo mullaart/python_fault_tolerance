@@ -4,7 +4,7 @@ setup(name='PythonFaultTolerance',
       version='1.0',
       description='Python Fault Tolerance',
       author='Mr. Sniffles',
-      author_email='sniffles@catswithtails.testnet',
+      author_email='sniffles@catswithouttails.testnet',
       url='No',
       packages=['ftol'],
      )
