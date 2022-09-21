@@ -24,7 +24,7 @@ import functools
 import inspect
 import time
 import typing as PT
-#from fault_tolerance.Exceptions import IncorrectFaultToleranceSpecificationError, FailedToRecoverError
+from fault_tolerance.Exceptions import IncorrectFaultToleranceSpecificationError, FailedToRecoverError
 
 def _is_subclass(obj: PT.Any, cls: type) -> bool:
 
