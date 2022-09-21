@@ -25,7 +25,7 @@ steps:
     displayName: 'Install pytest'
 
   - script: |
-      pytest 
+      pytest --doctest-modules
     displayName: "Run pytest"
     continueOnError: True
 
