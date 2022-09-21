@@ -28,11 +28,6 @@ import re
 import sys
 import typing as PT
 import pprint
-
-# this should not be here, resolve search path configuration in tools!
-sys.path.append('c:/Users/fsveide/Documents/gitresp/python_fault_tolerance-1/python_fault_tolerance/src')
-pprint.pprint(sys.path)
-
 import fault_tolerance
 
 def _expected_exception_str(expected: bool, exc: Exception) -> str:
